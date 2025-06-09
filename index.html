@@ -100,7 +100,7 @@
             let chatHistory = [];
             chatHistory.push({ role: "user", parts: [{ text: prompt }] });
             const payload = { contents: chatHistory };
-            const apiKey = "AIzaSyCPZM2rNbMXKBJ0mfR6dngREm67spIb9nI"; // API key is handled by the environment, no need to specify here
+            const apiKey = "AIzaSyBB6VoW9vyGCh0xHK1Ikh9wxLqnDT1v7WM"; // API key is handled by the environment, no need to specify here
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
             try {
